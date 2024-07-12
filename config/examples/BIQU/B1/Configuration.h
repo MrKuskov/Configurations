@@ -1990,7 +1990,7 @@
       #define FILAMENT_SWITCH_AND_MOTION
       #if ENABLED(FILAMENT_SWITCH_AND_MOTION)
         #define NUM_MOTION_SENSORS   1          // Number of sensors, up to one per extruder. Define a FIL_MOTION#_PIN for each.
-        #define FIL_MOTION1_PIN    PC2
+        #define FIL_MOTION1_PIN    P1_25
 
         // Override individually if the motion sensors vary
         //#define FIL_MOTION1_STATE LOW
